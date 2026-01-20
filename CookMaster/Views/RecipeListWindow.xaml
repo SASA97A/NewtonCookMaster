@@ -17,6 +17,7 @@
             <TextBlock x:Name="txtWelcome" Text="Hello, User" VerticalAlignment="Center"/>
             <Button Content="My Profile" Click="Profile_Click" Margin="10,0"/>
             <Button Content="Logout" Click="Logout_Click" HorizontalAlignment="Right"/>
+            <Button Content="About" Click="About_Click" Margin="10,0" HorizontalAlignment="Right"/>
         </StackPanel>
 
         <Button Grid.Row="0" Content="+ Add Recipe" Click="AddRecipe_Click" HorizontalAlignment="Right" Margin="0,0,100,0"/>

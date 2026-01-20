@@ -79,5 +79,17 @@ namespace CookMaster.Views
             new MainWindow().Show();
             this.Close();
         }
+
+        private void About_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(
+                "CookMaster is a user-friendly recipe application where you can create, " +
+                "edit, and manage your own recipes.\n\n" +
+                "Users can add new recipes, view detailed information, edit existing " +
+                "recipes, and remove them. Admin users have access to all recipes in the system.",
+                "About CookMaster",
+            MessageBoxButton.OK,
+            MessageBoxImage.Information );
+        }
     }
 }
